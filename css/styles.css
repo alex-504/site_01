@@ -1,0 +1,141 @@
+body {
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /*Try to render Verdana, if browser cant, it will run Sans-Serif*/
+}
+
+a {
+  color: #11999E;
+}
+
+
+h1 {
+  color: #66BFBF;
+  margin-top: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  color: #EAF6F6;
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 10%;
+}
+
+.profile-pic {
+  padding-top: 20px;
+}
+
+.images1 {
+  width: 25%;
+  /*border-radius: 50% 50%;*/
+  border-radius: 10px 100px / 120px;
+  float: left;
+  padding-right: 30px;
+}
+
+.images2 {
+  width: 25%;
+  /*border-radius: 50% 50%;*/
+  border-radius: 10px 100px / 120px;
+  float: right;
+  padding-right: 50px;
+}
+
+/*.code-skill-description1 {
+  clear: left;
+}
+.code-skill-description2 {
+  clear: right;
+}  DOES NOT LOOK GOOD */
+
+.topContainer {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 350px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  botton: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile-paragraph {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.middle-container{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 2;
+}
+.contact-me {
+  width: 60%;
+  margin: 60px auto;
+}
+
+.btn {
+  width: auto;
+  padding: 10px;
+  color: white;
+  background: linear-gradient( #EAF6F6,#11999E);
+  border-radius: 10px;
+}
+
+.images {
+  width: 25%;
+}
+
+.bottom-container {
+  background: #66BFBF;
+  width: auto;
+
+}
+
+.footer-link {
+  display: inline-block;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.copyrights {
+  color: #EAF6F6;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 40px;
+}
